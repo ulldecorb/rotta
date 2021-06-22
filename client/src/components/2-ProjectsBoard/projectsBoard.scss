@@ -1,0 +1,103 @@
+@import '../../styles/color';
+
+.projects {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://www.webivm.com/wp-content/uploads/Old-Paper-Background-1200x720.jpg");
+    background-position: center;
+    background-size: cover;
+    // overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    &__title{
+        margin-top: 10vh;
+        color:rgb(92, 23, 23);
+        border-bottom: 2px solid rgb(92, 23, 23);
+        text-shadow: 2px 1px rgb(225, 182, 142);
+    }
+    
+    &__list{
+        z-index: 11;
+        margin: 4px auto;
+        list-style: none;
+        
+        .list {
+            width: 200px;
+            height: 30px;
+            border-radius: 20px;
+            margin: 4px auto;
+            background-color: rgb(245, 231, 214);
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            
+            &__title {
+                width: 170px;
+                text-align: center;
+                padding-top: 6px;
+                text-transform: uppercase;
+                text-decoration: none;
+
+            }
+
+            &:hover {
+                background-color: rgb(190, 233, 105);
+            }
+
+            &__delete-button {
+                width: 28px;
+                height: 28px;
+                border-radius: 50%;
+                background-color: red;
+                color: yellow;
+                border: none;
+                margin: 1px 0 4px 0;
+
+                &:hover {
+                    background-color: #000;
+                }
+            }
+        }
+
+    }
+
+    &__intruccions {
+        margin-top: 15px;
+        padding-top: 8px;
+        color: rgb(255, 255, 255);
+        border-top: 2px solid #FFF;
+    }
+    
+    &__input {
+        cursor: text;
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        margin: 4px auto;
+        padding: 0 10px;
+        z-index: 11;
+        outline: none;
+        border: none;
+
+        &::placeholder {
+            text-align: center;
+            color: rgb(163, 155, 143);
+            padding: 8px;
+        }
+    }
+    
+    &__add-button {
+        cursor: pointer;
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        margin: 4px auto;
+        padding: 0 10px;
+        z-index: 11;
+        outline: none;
+        border: none;
+    }
+}

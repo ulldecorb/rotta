@@ -1,0 +1,25 @@
+.logout {
+  margin: 4px 8px;
+  height: 30px;
+  width: 30px;
+  background-color: #e0e0ff;
+  border-radius: 50%;
+  border-style: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.logout:hover {
+  background-color: #e82323;
+}
+
+.logout__logout-icon {
+  width: 20px;
+  height: 20px;
+  margin: 4px 0 0 4px;
+}
+
+.logout__logout-icon:hover {
+  background-color: red;
+}
+/*# sourceMappingURL=logoutt.css.map */

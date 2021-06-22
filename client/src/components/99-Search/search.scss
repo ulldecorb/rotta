@@ -1,0 +1,26 @@
+.search {
+    
+    &__background {
+        background-color: rgba(0, 0, 0, 0.467);
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        bottom: 0;
+        z-index: 100;
+    }
+
+    &__input {
+        width: 40%;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        z-index: 110;
+        text-align: center;
+        top: 4px;
+        right: 4px;
+    }
+
+    // &__results {
+    //     z-index:11;
+    // }
+}

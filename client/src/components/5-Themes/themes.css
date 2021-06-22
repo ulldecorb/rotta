@@ -1,0 +1,75 @@
+.themes-box {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: row wrap;
+      flex-wrap: row wrap;
+  z-index: 2;
+  overflow-x: auto;
+  white-space: nowrap;
+  -ms-scroll-snap-type: x proximity;
+      scroll-snap-type: x proximity;
+  scroll-behavior: smooth;
+}
+
+.themes-box::-webkit-scrollbar {
+  display: none;
+}
+
+.themes-box__combined-theme-and-lesson-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.themes-box .themes {
+  width: 200px;
+  min-height: 200px;
+  height: 200px;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: #faefe0;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 5px #777575;
+          box-shadow: 10px 10px 5px #777575;
+  margin: 10px;
+  cursor: pointer;
+  display: inline-block;
+  color: #000;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  border: 2px solid #e6c190;
+}
+
+.themes-box .themes:hover {
+  background-color: #e6c190;
+}
+
+.themes-box .themes__image {
+  width: 75px;
+  height: 75px;
+}
+
+.themes-box .themes__title {
+  margin-top: 0.5vw;
+  text-align: center;
+  font-size: 2em;
+}
+
+.themes-box .themes__setup-image {
+  margin-top: 12px;
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=themes.css.map */

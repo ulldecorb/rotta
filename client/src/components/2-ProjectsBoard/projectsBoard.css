@@ -1,0 +1,131 @@
+.projects {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://www.webivm.com/wp-content/uploads/Old-Paper-Background-1200x720.jpg");
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects__title {
+  margin-top: 10vh;
+  color: #5c1717;
+  border-bottom: 2px solid #5c1717;
+  text-shadow: 2px 1px #e1b68e;
+}
+
+.projects__list {
+  z-index: 11;
+  margin: 4px auto;
+  list-style: none;
+}
+
+.projects__list .list {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 4px auto;
+  background-color: #f5e7d6;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.projects__list .list__title {
+  width: 170px;
+  text-align: center;
+  padding-top: 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.projects__list .list:hover {
+  background-color: #bee969;
+}
+
+.projects__list .list__delete-button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: red;
+  color: yellow;
+  border: none;
+  margin: 1px 0 4px 0;
+}
+
+.projects__list .list__delete-button:hover {
+  background-color: #000;
+}
+
+.projects__intruccions {
+  margin-top: 15px;
+  padding-top: 8px;
+  color: white;
+  border-top: 2px solid #FFF;
+}
+
+.projects__input {
+  cursor: text;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 4px auto;
+  padding: 0 10px;
+  z-index: 11;
+  outline: none;
+  border: none;
+}
+
+.projects__input::-webkit-input-placeholder {
+  text-align: center;
+  color: #a39b8f;
+  padding: 8px;
+}
+
+.projects__input:-ms-input-placeholder {
+  text-align: center;
+  color: #a39b8f;
+  padding: 8px;
+}
+
+.projects__input::-ms-input-placeholder {
+  text-align: center;
+  color: #a39b8f;
+  padding: 8px;
+}
+
+.projects__input::placeholder {
+  text-align: center;
+  color: #a39b8f;
+  padding: 8px;
+}
+
+.projects__add-button {
+  cursor: pointer;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 4px auto;
+  padding: 0 10px;
+  z-index: 11;
+  outline: none;
+  border: none;
+}
+/*# sourceMappingURL=projectsBoard.css.map */
