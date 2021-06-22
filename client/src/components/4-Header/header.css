@@ -1,0 +1,62 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  width: 100vw;
+  height: 40px;
+  background-color: #5454e8;
+  color: #e0e0ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__main-title-box {
+  position: absolute;
+  width: 100%;
+  margin: 4px 0;
+  text-align: center;
+}
+
+.navbar__title {
+  cursor: pointer;
+  font-size: 1em;
+  text-transform: uppercase;
+  width: 30%;
+  text-decoration: none;
+}
+
+.navbar__title:hover {
+  color: #e89b53;
+}
+
+.navbar__search {
+  margin: 4px 8px;
+  height: 30px;
+  width: 30px;
+  background-color: #e0e0ff;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.navbar__search:hover .navbar__search-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.navbar__search-icon {
+  width: 20px;
+  height: 20px;
+  margin: 4px 0 0 4px;
+}
+/*# sourceMappingURL=header.css.map */

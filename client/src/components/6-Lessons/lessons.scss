@@ -1,0 +1,42 @@
+.lessons-box {
+    width: 210px;
+    height: 100vw;
+    display: flex;
+    flex-wrap: column wrap;
+    // justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    white-space: nowrap;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.lessons {
+    width: 150px;
+    height: 150px;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: rgb(250, 239, 224);
+    box-shadow: 10px 10px 5px rgb(119, 117, 117);
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: auto;
+
+        &:hover {
+                background-color: rgb(230, 193, 144);
+            }
+
+    &__image {
+        width: 90px;
+        height: 90px;
+    }
+
+    &__title {
+        text-align: center;
+    }
+}

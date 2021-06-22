@@ -1,0 +1,90 @@
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: red;
+}
+
+.loading__advise {
+  text-align: center;
+  color: yellow;
+  font-size: 3em;
+}
+
+.log {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://i2.wp.com/www.nuevarevista.net/wp-content/uploads/2018/03/shutterstock_1168257583.jpg?resize=1021%2C580&ssl=1");
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.log__title {
+  width: 500px;
+  height: 100px;
+  color: #FFF;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 4px 4px #5a3c17;
+}
+
+.log__log-button {
+  margin: 4px 8px;
+  height: 70px;
+  width: 150px;
+  font-size: 2em;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.log__log-button:hover {
+  background-color: bisque;
+}
+
+.log__projects-link {
+  margin: 4px 8px;
+  height: 35px;
+  width: 150px;
+  font-size: 1.5em;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #FFF;
+  z-index: 2;
+  text-decoration: none;
+  color: #000;
+}
+
+.log__projects-link:hover {
+  background-color: bisque;
+}
+/*# sourceMappingURL=login.css.map */

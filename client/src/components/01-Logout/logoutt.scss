@@ -1,0 +1,26 @@
+@import '../../styles/color';
+
+.logout {
+    margin: 4px 8px;
+    height: 30px;
+    width: 30px;
+    background-color: $ligthMainColor;
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+    z-index: 2;
+    
+    &:hover {
+        background-color: rgb(232, 35, 35);
+    }
+
+    &__logout-icon {
+        width:20px;
+        height:20px;
+        margin: 4px 0 0 4px;
+
+        &:hover{
+            background-color: red;
+        }
+    }
+}

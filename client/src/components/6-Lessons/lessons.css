@@ -1,0 +1,58 @@
+.lessons-box {
+  width: 210px;
+  height: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: column wrap;
+      flex-wrap: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-y: auto;
+  white-space: nowrap;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.lessons {
+  width: 150px;
+  height: 150px;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: #faefe0;
+  -webkit-box-shadow: 10px 10px 5px #777575;
+          box-shadow: 10px 10px 5px #777575;
+  margin: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  overflow: auto;
+}
+
+.lessons:hover {
+  background-color: #e6c190;
+}
+
+.lessons__image {
+  width: 90px;
+  height: 90px;
+}
+
+.lessons__title {
+  text-align: center;
+}
+/*# sourceMappingURL=lessons.css.map */

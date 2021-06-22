@@ -1,0 +1,38 @@
+.theme-detail {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: #16490f;
+}
+
+.box-detail {
+  width: 90vw;
+  height: 80vh;
+  border: 2px solid #22ba14;
+  position: absolute;
+  top: 10vh;
+  right: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: column wrap;
+      flex-wrap: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-detail__title {
+  color: #84e81f;
+  -webkit-box-shadow: 0 0 50px red;
+          box-shadow: 0 0 50px red;
+  font-size: 2em;
+}
+
+.box-detail__input {
+  display: none;
+}
+/*# sourceMappingURL=theme-detail.css.map */
