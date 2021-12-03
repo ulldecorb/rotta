@@ -1,8 +1,5 @@
-![Algorithm schema](https://thumbs.dreamstime.com/b/under-construction-10012274.jpg)
-# ⚠ Under construction ⚠
 ## Rotta
 You need a mind map? Maybe Rotta can help you!
-
 
 ## Table of contents
 * [General info](#general-info)
@@ -10,24 +7,22 @@ You need a mind map? Maybe Rotta can help you!
 * [Setup](#setup)
 
 ## General info
-ROTTA is the final student project on Skylab bootcamp as a full stack developer. I can develop a while project building front-end and backend together raising by 0. provide the whole tecnologies I learn by intensive apply and fun a lot with team work, making a web app structured by HTML, styled by CSS and logic by Javascript. React framework follow flux unidirectional patron becomes Redux.
-Rotta is an App web developp in React
-	
+Rotta is a personal reminder to keep your mind map organized by topics and categories.  
+Each user has access to their own collections.  
+Each memory card can be created by adding the information that suits you best. You can also enter links to websites that relate to the topic of each card.
+
 ## Technologies
 Project is created with:
-* HTML: 12.3
-* CSS: 2.33
-* SASS:
-* Javascript: 999
-* REACT: 12.3
-* NODE:JS: 2.33
-* : 999
-	
+* TYPESCRIPT version: 4.3.29
+* REDUX version: 4.1.0
+* ESLINT version: 7.30.0
+* JEST version: 5.14.1
+
 ## Setup
 To run this project, install it locally using npm:
 
 ```
-$ cd ../rotta
+$ cd rotta
 $ npm install
 $ npm start
 ```
@@ -64,30 +59,13 @@ $ npm start
 * [Other information](#Other-information)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
 This website is performed like code exercise but with home kids as target user in mind for UX. 
 	
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
-	
-## Setup
-To run this project, install it locally using npm:
-
-```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
-
 ## Illustrations
 ![under construction](https://img.freepik.com/vector-gratis/signo-industrial-construccion-fondo-rayado-linea-negra-amarilla_97458-151.jpg?size=626&ext=jpg)
 
 ## Scope of functionalities 
 ### Features
-* Get pictures & info of almost 1000 pokemons. 
 
 #### To Do:
 * Easily UI navigation.
@@ -95,15 +73,22 @@ $ npm start
 
 ## Examples of use
 ### Code Examples
-To generate lorem ipsum use special shortcode: `put-your-code-here`
 
 ## Project status 
+Refactor and complete unit test.
 It's worth to add a project status - especially if the project is still being developed. If it's our library, let's mention planned changes, direction of development or to emphasize we're done with its development.
 
 ## Sources
+The official REDUX webpage: ![https://redux.js.org/]
 This app is inspired by Rando Kim book „Time of Your Life”
 and Android app tutorial by [@eericon](https://www.eericon.github.io/post/timer-android)\n
 Maybe we use an old tutorial - for example, we write an application with Rails 3 tutorial. From scratch, in accordance with Rails 5 version, using new framework mechanisms. Certainly, it's worth mentioning here. 
 
 ## Other information
-Information on the author, contact, www and social media links, a type of license under which the code is made available or the information on how to contribute to a project - these are only the examples of what can be added to your project. -->
+
+ROTTA is the final project on Skylab bootcamp as a full stack developer. I can develop a while project building both frontend and backend together. A chance to provide the whole tecnologies learned by intensive apply and a lot of fun with team work mates. 
+I'm Ausias Bertran and when I write this words I recently finish the bootcamp and enjoy the path to learn how to develop a solid project, ever learning and resolving has problems as I'll find by the way. and can't wait futures challenge on IT world.
+
+links Linkedin
+links github
+ -->
