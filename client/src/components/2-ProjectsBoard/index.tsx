@@ -67,7 +67,8 @@ const ProjectsBoard: FC<ProjectsProps> = ({ projects, dispatch }) => {
               img: 'string'
             }]
           };
-          dispatch(addProject(pro)); setProjectName('');
+          dispatch(addProject(pro));
+          setProjectName('');
         }}
       >
         Add New Project
