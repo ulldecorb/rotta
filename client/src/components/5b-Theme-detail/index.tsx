@@ -8,7 +8,7 @@ const ThemesDetail = () => (
   <>
     <div className="theme-detail">
       {/* <Header /> */}
-      <Link to="/fullstack" className="theme-detail__back-button">Back</Link>
+      <Link to="/fullstack" className="theme-detail__back-button">X</Link>
       <div className="box-detail">
         <h2 className="box-detail__title">
           THEME DETAIL
