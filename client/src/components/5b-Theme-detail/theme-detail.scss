@@ -3,6 +3,27 @@
     width: 100vw;
     height: 100vh;
     background-color: rgb(22, 73, 15);
+
+    &__back-button{
+        height: 4vh;
+        width: 4vh;
+        background-color: rgb(22, 73, 15);
+        color:rgb(34, 186, 20);
+        position: absolute;
+        top: 8vh;
+        right: 4vw;
+        border-radius: 50%;
+        outline: 2px solid rgb(34, 186, 20);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        text-decoration: none;
+
+        &:hover {
+            color:rgb(132, 232, 31);
+        }
+    }
 }
 
     .box-detail{

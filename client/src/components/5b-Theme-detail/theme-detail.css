@@ -5,6 +5,33 @@
   background-color: #16490f;
 }
 
+.theme-detail__back-button {
+  height: 4vh;
+  width: 4vh;
+  background-color: #16490f;
+  color: #22ba14;
+  position: absolute;
+  top: 8vh;
+  right: 4vw;
+  border-radius: 50%;
+  outline: 2px solid #22ba14;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+  text-decoration: none;
+}
+
+.theme-detail__back-button:hover {
+  color: #84e81f;
+}
+
 .box-detail {
   width: 90vw;
   height: 80vh;

@@ -1,12 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import Header from '../4-Header';
+import { Link } from 'react-router-dom';
+// import Header from '../4-Header';
 import './theme-detail.css';
 
 const ThemesDetail = () => (
   <>
     <div className="theme-detail">
-      <Header />
+      {/* <Header /> */}
+      <Link to="/fullstack" className="theme-detail__back-button">X</Link>
       <div className="box-detail">
         <h2 className="box-detail__title">
           THEME DETAIL
@@ -16,7 +18,7 @@ const ThemesDetail = () => (
           <input
             type="text"
             className="box-detail__input"
-            placeholder="Enter description"
+            placeholder="Enter Title"
           />
         </div>
         <div className="box-detail__description">
@@ -24,7 +26,7 @@ const ThemesDetail = () => (
           <input
             type="text"
             className="box-detail__input"
-            placeholder="Enter description"
+            placeholder="Enter img"
           />
         </div>
         <div className="box-detail__description">
@@ -32,7 +34,7 @@ const ThemesDetail = () => (
           <input
             type="text"
             className="box-detail__input"
-            placeholder="Enter description"
+            placeholder="Enter image url"
           />
         </div>
         <div className="links-box">
